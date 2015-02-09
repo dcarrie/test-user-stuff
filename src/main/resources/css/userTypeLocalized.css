@@ -9,12 +9,12 @@
 .userTypeOverlay {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     color:#f00;
     font-weight:bold;
     background-color: #ffffff;
 }
 
 .userTypeOverlay {
-    z-index: 10;
+    z-index: 9999;
 }

@@ -27,7 +27,7 @@
     <select onchange="${onchange}">
         <option value=""/>
     <%
-       String[][] userTypes=new String[][]{{"business_traveler", "Business Traveler"},{"potential_client","Potential Client"}, {"travel_manager","Travel Manager"}, {"media_manager", "Media Manager"},{"prospective_employee","Employee"}};
+       String[][] userTypes=new String[][]{{"businessTraveler", "Business Traveler"},{"potentialClient","Potential Client"}, {"travelManager","Travel Manager"}, {"mediaManager", "Media Manager"},{"prospectiveEmployee","Employee"}};
        for (String[] uType : userTypes) {
 
     %>

@@ -82,7 +82,7 @@
   <artifactId>usertypelocalization</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>userTypeLocalization</name>
+  <name>User Type Localization</name>
   <description>This is the custom module (userTypeLocalization) for running on a Digital Factory server.</description>
   <scm>
     <connection>scm:git:git@github.com:dcarrie/test-user-stuff.git</connection>

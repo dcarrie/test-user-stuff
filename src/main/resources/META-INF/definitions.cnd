@@ -6,5 +6,5 @@
 [jmix:userTypeLocalizable] mixin
  extends = jnt:content
  itemtype = options
- - userType (string, choicelist[resourceBundle]) mandatory internationalized < 'business_traveler', 'potential_client', 'travel_manager', 'media_manager', 'prospective_employee'
+ - userType (string, choicelist[resourceBundle]) mandatory internationalized < 'businessTraveler', 'potentialClient', 'travelManager', 'mediaManager', 'prospectiveEmployee'
 
