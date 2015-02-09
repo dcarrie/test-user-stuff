@@ -1,0 +1,10 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:userTypeSwitcher] > jnt:content, jmix:siteComponent, jmix:studioOnly
+
+[jmix:userTypeLocalizable] mixin
+ extends = jnt:content
+ itemtype = options
+ - userType (string, choicelist[resourceBundle]) mandatory internationalized < 'business_traveler', 'potential_client', 'travel_manager', 'media_manager', 'prospective_employee'
+

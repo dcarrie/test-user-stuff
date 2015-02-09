@@ -1,0 +1,20 @@
+.userTypeContainer {
+    position: relative;
+}
+
+.userTypeContent {
+    opacity: 0.2;
+}
+
+.userTypeOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:#f00;
+    font-weight:bold;
+    background-color: #ffffff;
+}
+
+.userTypeOverlay {
+    z-index: 10;
+}
